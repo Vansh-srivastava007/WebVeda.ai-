@@ -1,0 +1,173 @@
+-
+> You are an expert full-stack web developer and UI/UX designer tasked with building a modern, clean, scalable, AI-enabled website called *WebVeda.ai* from scratch. This website should be fully responsive, SEO-optimized, and easy to extend.
+
+---
+
+### 🔧 General Instructions
+
+* The site must include a payment interface (visually complete on frontend) with placeholder logic—actual Razorpay backend integration will be added later.
+* Build using modern tech: React + Next.js + Tailwind CSS.
+* Store contact form data in Firebase.
+* Use the following branding:
+
+> - *Company Name:* WebVeda.ai
+> - *Tagline:* Building Smart Experiences, Rooted in Knowledge
+> - *Phone:* +91 73229 86030
+> - *Email:* [vanshsrivastava252@gmail.com](mailto:vanshsrivastava252@gmail.com)
+> - *WhatsApp Contact:* [https://wa.me/917322986030](https://wa.me/917322986030)
+> - *Location:* Chandi, Nalanda, Bihar – 803108
+> - *CEO:* Vansh Srivastava
+> - *LinkedIn:* [https://www.linkedin.com/in/vansh-srivastava-devloper007](https://www.linkedin.com/in/vansh-srivastava-devloper007)
+> - *CEO Image:* Use the uploaded file for team photo
+
+---
+
+### 🎨 Design System
+
+* *Colors:*
+
+  * Primary: #2A52BE
+  * Accent: #7C4DFF
+  * Light: #F7F9FC
+  * Dark: #2E3A59
+* *Fonts:*
+
+  * Heading: Inter, bold
+  * Body: Roboto, regular
+* *Layout:*
+
+  * Tailwind CSS, 8px spacing system
+  * Use framer-motion for subtle transitions
+
+---
+
+### 🧭 Site Map
+
+| Page      | Description                 |
+| --------- | --------------------------- |
+| /         | Homepage                    |
+| /services | AI Agents + Web Development |
+| /pricing  | AI + Web Dev Packages       |
+| /about    | Story + Team                |
+| /contact  | Contact Form, WhatsApp, Map |
+| /blog     | Placeholder                 |
+
+---
+
+### 🏠 Homepage (/)
+
+* Hero with gradient background, main headline, and 2 buttons:
+
+  * “Book Free Demo” (modal form)
+  * “Explore Services” (scrolls down)
+* Features Grid: Intelligent AI Agents, Modular Web Dev, Seamless Integration
+* 4 Use Case Previews (carousel)
+* Quick Stats Bar (animated counters)
+* 2 Client Testimonials
+* Footer with links + social media
+
+---
+
+### 🤖 Services (/services)
+
+Tabbed layout for two main offerings:
+
+#### Tab A: AI Agents
+
+* Description of intelligent multilingual AI agents
+* 6 Agent Types (Cards):
+
+  * Customer Support, Sales, HR, Finance, Marketing, Custom
+* Simple flowchart diagram: User → Chat Interface → Agent → DB → Response
+* Integration logo bar (Slack, Gmail, etc.)
+
+#### Tab B: Web Development
+
+* Blurb about modular, scalable sites
+* 4 Packages:
+
+  1. Basic Homepage – ₹1,199
+  2. 5-Page Website – ₹2,499
+  3. E-Commerce Site – ₹4,999
+  4. Custom Web App – from ₹9,999
+* Process Timeline (5 Steps)
+
+---
+
+### 💰 Pricing (/pricing)
+
+* AI Plans (approx 60% of Dakini):
+
+  * Starter – ₹1,199/mo
+  * Pro – ₹4,999/mo
+  * Enterprise – Custom Quote
+* Comparison Table
+* Web Dev Packages Re-listed
+* Payment UI:
+
+  * All plans show a “Buy Now” button using Razorpay placeholder (non-functional)
+  * Add a small note: “Secure checkout powered by Razorpay (coming soon)”
+
+---
+
+### 🧑‍💼 About (/about)
+
+* Company Story Timeline (2025 launch, etc.)
+* Core Values: Knowledge, Innovation, Customer Focus
+* Team (Only 1 Member):
+
+  * Name: Vansh Srivastava
+  * Role: Founder & CEO
+  * LinkedIn: [https://www.linkedin.com/in/vansh-srivastava-devloper007](https://www.linkedin.com/in/vansh-srivastava-devloper007)
+  * Image: Use uploaded profile image
+
+---
+
+### ✉ Contact (/contact)
+
+* Contact Form:
+
+  * Fields: Name\, Email\, Phone, Message\*
+  * Validates inputs and stores to Firebase
+* Direct Contact:
+
+  * Phone: tel:+917322986030
+  * Email: mailto\:vanshsrivastava252\@gmail.com
+  * WhatsApp: [https://wa.me/917322986030](https://wa.me/917322986030)
+* Google Map Embed: Chandi, Nalanda, Bihar – 803108
+* FAQ (3 Questions placeholder)
+
+---
+
+### ⚙ Tech Stack
+
+* Frontend: React + Next.js + Tailwind CSS
+* Backend: Node.js (Express server if needed later)
+* Database: Firebase (for contact form entries)
+* Hosting: Vercel
+* Analytics: Google Analytics (GA4)
+* CI/CD: GitHub + Vercel
+* SEO: Dynamic metadata, Open Graph, robots.txt, sitemap.xml
+
+---
+
+### 🧪 QA & Performance
+
+* Accessibility: WCAG AA compliant
+* Performance: Lazy load images, optimize bundle size
+* Lighthouse Score: Aim ≥ 90
+* Forms & modals keyboard accessible
+* Dark mode compatible (if time permits)
+
+---
+
+### 🗓 Timeline
+
+| Week | Deliverable                       |
+| ---- | --------------------------------- |
+| 1    | Style Guide + Homepage            |
+| 2    | Services + Pricing Pages          |
+| 3    | About + Contact                   |
+| 4    | Firebase + Testing + Final Tweaks |
+
+---

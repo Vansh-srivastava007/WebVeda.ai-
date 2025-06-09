@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(213, 45%, 18%);
+  --muted: hsl(218, 27%, 96%);
+  --muted-foreground: hsl(213, 12%, 45%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(213, 45%, 18%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(213, 45%, 18%);
+  --border: hsl(218, 27%, 90%);
+  --input: hsl(218, 27%, 90%);
+  --primary: hsl(207, 90%, 44%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(218, 27%, 96%);
+  --secondary-foreground: hsl(213, 45%, 18%);
+  --accent: hsl(256, 100%, 65%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(213, 45%, 18%);
+  --light: hsl(218, 27%, 97%);
+  --dark: hsl(213, 45%, 18%);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 44%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(256, 100%, 65%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .bg-light {
+    background-color: hsl(218, 27%, 97%);
+  }
+
+  .bg-dark {
+    background-color: hsl(213, 45%, 18%);
+  }
+
+  .text-light {
+    color: hsl(218, 27%, 97%);
+  }
+
+  .text-dark {
+    color: hsl(213, 45%, 18%);
+  }
+}
